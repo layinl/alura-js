@@ -7,12 +7,12 @@
 </head>
 <body>
   <script>
-    let value1 = 10,
-      value2 = 20,
+    let value1 = 0.1,
+      value2 = 0.2,
       resultSum = value1 + value2,
       resultSub = value1 - value2;
     console.log(`The sum of ${value1} with ${value2} equals ${resultSum}`);
-    console.log(`The difference between ${value1} and ${value2} is ${resultSum}`);
+    console.log(`The difference between ${value1} and ${value2} is ${resultSub}`);
     // TODO: exercise 4.7
     let number = prompt("Type a number");
     if(number > 0) 
@@ -21,6 +21,13 @@
       console.log("The number is negative.");
     else 
       console.log("The number is zero.");
+    let i = 1;
+    while(i <= 10) console.log(i++);
+    let grade = 7;
+    if(grade >= 7) 
+      console.log("Approved");
+    else
+      console.log("Failed");
   </script>
 </body>
 </html>
