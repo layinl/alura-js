@@ -1,4 +1,4 @@
-const MAX_NUM = 3;
+const MAX_NUM = 100;
 let drawnNumbers = [];
 let secretNumber = generateRandomNumber();
 let tries = 1;
@@ -8,6 +8,7 @@ showInitialMessage();
 function showTextOnScreen(tag, text) {
 	let field = document.querySelector(tag);
 	field.innerHTML = text;
+	responsiveVoice.speak(text, "Japanese Female", {rate: 1.2})
 }
 
 function cleanField() {
