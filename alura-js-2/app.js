@@ -1,3 +1,5 @@
+const MAX_NUM = 3;
+let drawnNumbers = [];
 let secretNumber = generateRandomNumber();
 let tries = 1;
 
@@ -15,7 +17,7 @@ function cleanField() {
 
 function showInitialMessage() {
 	showTextOnScreen("h1", "Number Guessing Game");
-	showTextOnScreen("p", "Guess the number. Choose between 1 and 100");
+	showTextOnScreen("p", `Guess the number. Choose between 1 and ${MAX_NUM}`);
 }
 
 function verifyGuess() {
@@ -42,5 +44,16 @@ function resetGame() {
 }
 
 function generateRandomNumber() {
-	return parseInt(Math.random() * 100 + 1);
+	let drawnNumber = parseInt(Math.random() * MAX_NUM + 1);
+	if(drawnNumbers.length === MAX_NUM) {
+		drawnNumbers = [];
+		drawnNumbers.push(drawnNumber);
+		return drawnNumber;
+	}
+	if (drawnNumbers.includes(drawnNumber))
+		return generateRandomNumber();
+	else {
+		drawnNumbers.push(drawnNumber);
+		return drawnNumber;
+	}
 }
