@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BMI</title>
+  <title>BMI and more</title>
 </head>
 <body>
   <main style="font-family: sans-serif">
@@ -12,12 +12,46 @@
     <input type="number" name="weight" id="weight" placeholder="Weight"><input type="number" name="height" id="height" placeholder="Height">
     <button onclick="calculateBMI()">Calculate</button>
     <p id="bmi">Result will be shown here</p>
+    <p>Use the rest of the functions in the console</p>
+    <ul>
+      <li>factorial(num)</li>
+      <li>convertDollarToReal(money)</li>
+      <li>calculateRectangle(height, width)</li>
+      <li>calculateCircle(radius)</li>
+      <li>showMultTable(num)</li>
+    </ul>
   </main>
   <script>
     function calculateBMI() {
       let weight = document.getElementById("weight").value;
       let height = document.getElementById("height").value;
       document.getElementById("bmi").innerText = weight / (height * height);
+    }
+
+    function factorial(num) {
+      let result;
+      for(let i = num - 1; i > 0; i--) 
+        num *= i;
+      return num;
+    }
+
+    function convertDollarToReal(money) {
+      return money * 4.8;
+    }
+
+    function calculateRectangle(height, width) {
+      return `Area: ${height * width}, Perimeter: ${(height + width) * 2}`
+    }
+
+    function calculateCircle(radius) {
+      return `Area: ${Math.PI * radius * radius}, length: ${2 * Math.PI * radius}`
+    }
+
+    function showMultTable(num) {
+      let multiplicationTable = "";
+      for(let i = 1; i <= 12; i++)
+        multiplicationTable += `${num}x${i} = ${num * i}\n`
+      return multiplicationTable;
     }
   </script>
 </body>
