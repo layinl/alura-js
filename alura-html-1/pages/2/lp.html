@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Desenvolvedores de Software</title>
+	<title>Landing Page</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<header>
+	<!-- <header>
 		<h1>Desenvolvedores de Software</h1>
 		<nav>
 			<ul>
@@ -16,40 +16,42 @@
 				<li><a href="#contato">Contato</a></li>
 			</ul>
 		</nav>
-	</header>
+	</header> -->
 	<main>
-		<section id="sobre">
-			<h2>Sobre Nós</h2>
-			<p>Somos uma equipe de desenvolvedores de software apaixonados por criar soluções inovadoras para nossos clientes. Combinamos nossa experiência em tecnologia com uma abordagem centrada no usuário para criar aplicativos e sistemas que são intuitivos e fáceis de usar.</p>
+		<section id="about">
+			<h2>An <i>unnusual programmer</i></h2>
+			<p>Hello! I'm just the guy you're loking for when it comes to develop nice and modern sites. Specialized in React and Nextjs, I got what it takes to help implement good ideas. So, let's talk?</p>
 		</section>
-		<section id="servicos">
-			<h2>Nossos Serviços</h2>
-			<ul>
+		<section id="services">
+			<h2>Services</h2>
+			<!-- <ul>
 				<li>Desenvolvimento de aplicativos móveis</li>
 				<li>Desenvolvimento de aplicativos web</li>
 				<li>Desenvolvimento de software personalizado</li>
 				<li>Integração de sistemas</li>
 				<li>Testes de software</li>
+			</ul> -->
+			<ul>
+				<li>Mobile APP Development</li>
+				<li>Web App Development</li>
+				<li>Custom suftware Development</li>
+				<li>System Integration</li>
+				<li>Software Tests</li>
 			</ul>
 		</section>
-		<section id="contato">
-			<h2>Entre em Contato</h2>
-			<form>
-				<label for="nome">Nome:</label>
-				<input type="text" id="nome" name="nome"><br>
-
-				<label for="email">Email:</label>
-				<input type="email" id="email" name="email"><br>
-
-				<label for="mensagem">Mensagem:</label>
-				<textarea id="mensagem" name="mensagem"></textarea><br>
-
-				<input type="submit" value="Enviar">
-			</form>
+		<section id="buttons">
+			<div>
+				<button onclick="location.assign('./about.html')">About me</button>
+				<button onclick="location.assign('./contact.html')">Contact me!</button>
+			</div>
+			<div>
+				<button onclick="location.assign('https://www.instagram.com/')">Instagram</button>
+				<button onclick="location.assign('https://www.linkedin.com/')">LinkedIn</button>
+			</div>
 		</section>
 	</main>
 	<footer>
-		<p>© 2024 Desenvolvedores de Software</p>
+		<p>© 2024. Some rights reserved.</p>
 	</footer>
 </body>
 </html>
