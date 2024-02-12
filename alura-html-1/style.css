@@ -11,19 +11,21 @@ button {
   border-radius: 5px;
   padding: 0.5em 1em;
   width: 10em;
+  transition: ease 0.15s;
 }
 
 button:hover {
-  background-color: #af8fff;
+  background-color: #c8b2ff;
   cursor: pointer;
 }
 
 a {
   color: #7fff2f;
+  transition: ease 0.2s;
 }
 
 a:hover {
-  color: #afff5f;
+  color: #c7ff90;
 }
 
 a:visited {
