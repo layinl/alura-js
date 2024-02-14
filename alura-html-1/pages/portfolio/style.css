@@ -1,3 +1,27 @@
 .btn-group {
   margin-top: 0.5em;
 }
+
+main, footer {
+  margin: auto;
+  max-width: 1200px;
+}
+
+#about {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#about>div {
+  width: 50%;
+}
+
+#about>div>h1 {
+  font-size: 400%;
+}
+
+.emphasize {
+  color: #ac7bff;
+}
