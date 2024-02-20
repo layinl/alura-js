@@ -2,7 +2,11 @@
   margin-top: 0.5em;
 }
 
-main, footer {
+body {
+  background-image: linear-gradient(135deg, #2f004f, #00004f);
+}
+
+main {
   margin: auto;
   max-width: 1200px;
 }
@@ -19,9 +23,18 @@ main, footer {
 }
 
 .about-title {
-  font-size: 400%;
+  font-size: 4rem;
 }
 
 .emphasize {
   color: #ac7bff;
+}
+
+.services, .buttons {
+  background-color: #241c31;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 3rem;
 }
