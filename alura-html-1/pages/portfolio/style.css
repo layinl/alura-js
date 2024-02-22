@@ -12,7 +12,7 @@ main {
 }
 
 .about {
-  height: 100vh;
+  height: 98vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -34,7 +34,7 @@ main {
   color: #ac7bff;
 }
 
-.services, .buttons {
+.services, .buttons, .copyright {
   background-color: #241c31;
   padding: 20px;
 }
