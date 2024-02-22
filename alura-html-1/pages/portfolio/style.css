@@ -26,6 +26,10 @@ main {
   font-size: 4rem;
 }
 
+.urgent {
+  color: #ffbfbf
+}
+
 .emphasize {
   color: #ac7bff;
 }
