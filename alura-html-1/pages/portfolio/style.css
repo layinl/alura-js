@@ -21,6 +21,10 @@ main {
   justify-content: space-between;
 }
 
+.about-text {
+  width: 593px;
+}
+
 .about-title {
   font-size: 56px;
   font-weight: 100;
