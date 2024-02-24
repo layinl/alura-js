@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 .btn-group {
   margin-top: 0.5em;
 }
 
 body {
+  font-family: "Roboto", sans-serif;
   background-image: linear-gradient(135deg, #2f004f, #00004f);
 }
 
@@ -15,23 +18,27 @@ main {
   height: 98vh;
   display: flex;
   align-items: center;
-  justify-content: center;
-}
-
-.about-text, .about-img {
-  width: 50%;
+  justify-content: space-between;
 }
 
 .about-title {
-  font-size: 4rem;
+  font-size: 56px;
+  font-weight: 100;
 }
 
 .urgent {
-  color: #ffbfbf
+  font-size: 24px;
+  font-weight: 100;
+  color: #efefef
 }
 
 .emphasize {
-  color: #ac7bff;
+  color: #7f3fff;
+}
+
+.img{
+  width: 502px;
+  border-radius: 16px;
 }
 
 .services, .copyright {
