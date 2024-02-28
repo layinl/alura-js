@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
-.btn-group {
-  margin-top: 0.5em;
-}
-
 body {
   font-family: "Roboto", sans-serif;
   background-image: linear-gradient(135deg, #2f004f, #00004f);
@@ -40,14 +36,24 @@ main {
   color: #9f5fff;
 }
 
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+}
+
 .img{
   width: 502px;
   border-radius: 16px;
 }
 
-.services, .copyright {
+.services {
   background-color: #241c31;
   padding: 20px;
+}
+
+.copyright {
+  background-color: #241c31;
+  padding: 5px;
 }
 
 h2 {
