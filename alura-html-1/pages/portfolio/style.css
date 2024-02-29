@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 body {
   font-family: "Roboto", sans-serif;
@@ -15,21 +15,26 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  column-gap: 75px;
 }
 
 .about-text {
   width: 593px;
+  height: 475px;
 }
 
 .about-title {
-  font-size: 56px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 64px;
   font-weight: 100;
+  margin-bottom: 40px;
 }
 
 .urgent {
   font-size: 24px;
   font-weight: 100;
-  color: #efefef
+  color: #efefef;
+  margin-bottom: 40px;
 }
 
 .emphasize {
@@ -38,7 +43,10 @@ main {
 
 .btn-group {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
+  gap: 25px;
+  margin-top: 40px;
 }
 
 .img{
