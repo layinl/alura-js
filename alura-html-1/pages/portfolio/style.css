@@ -2,7 +2,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background-image: linear-gradient(135deg, #2f004f, #00004f);
+  background-image: linear-gradient(135deg, #17002f, #00001f);
 }
 
 main {
@@ -47,6 +47,15 @@ main {
   justify-content: space-between;
   gap: 25px;
   margin-top: 40px;
+}
+
+.btn {
+  background-color: transparent;
+  border: 3px solid #7f3fff; 
+}
+
+.btn:hover {
+  border: 3px solid #c8b2ff; 
 }
 
 .img{
