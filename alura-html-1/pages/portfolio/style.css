@@ -10,8 +10,17 @@ main {
   max-width: 1200px;
 }
 
+.contact{
+  height: 15vh;
+  padding: 10px;
+}
+
+.nav-item {
+  padding: 21.5px 5px;
+}
+
 .about {
-  height: 98vh;
+  height: 83vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -43,15 +52,25 @@ main {
 
 .btn-group {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
   justify-content: space-between;
   gap: 25px;
   margin-top: 40px;
 }
 
+.socials-text {
+  font-weight: 400;
+  font-size: 36px;
+}
+
 .btn {
   background-color: transparent;
-  border: 3px solid #7f3fff; 
+  border: 3px solid #7f3fff;
+  font-size: 24px;
+  width: 376px;
+  border-radius: 20px;
+  padding: 21.5px 0;
 }
 
 .btn:hover {
