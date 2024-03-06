@@ -3,6 +3,8 @@
 body {
   font-family: "Roboto", sans-serif;
   background-image: linear-gradient(135deg, #17002f, #00001f);
+  height: 100%;
+  width: 100%;
 }
 
 main {
@@ -10,7 +12,7 @@ main {
   max-width: 1200px;
 }
 
-.about {
+.presentation {
   height: 105vh;
   display: flex;
   flex-direction: column;
@@ -19,7 +21,7 @@ main {
   margin-top: -78.75px;
 }
 
-.about-wrapper {
+.presentation-wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -39,7 +41,7 @@ main {
   font-weight: 100;
 }
 
-.about-text {
+.presentation-text {
   width: 593px;
   height: 475px;
   display: flex;
@@ -48,7 +50,7 @@ main {
   justify-content: center;
 }
 
-.about-title {
+.presentation-title {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 64px;
   font-weight: 100;
