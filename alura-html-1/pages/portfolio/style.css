@@ -12,7 +12,7 @@ main {
 
 .contact{
   height: 15vh;
-  padding: 10px;
+  padding: 25px 0;
 }
 
 .nav-item {
@@ -30,20 +30,22 @@ main {
 .about-text {
   width: 593px;
   height: 475px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
 }
 
 .about-title {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 64px;
   font-weight: 100;
-  margin-bottom: 40px;
 }
 
 .urgent {
   font-size: 24px;
   font-weight: 100;
   color: #efefef;
-  margin-bottom: 40px;
 }
 
 .emphasize {
@@ -56,7 +58,6 @@ main {
   align-items: center;
   justify-content: space-between;
   gap: 25px;
-  margin-top: 40px;
 }
 
 .socials-text {
@@ -65,12 +66,27 @@ main {
 }
 
 .btn {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
   background-color: transparent;
   border: 3px solid #7f3fff;
   font-size: 24px;
   width: 376px;
   border-radius: 20px;
   padding: 21.5px 0;
+}
+
+.btn:hover {
+  background-color: #ffffff1f;
+}
+
+a.btn {
+  color: #efefef;
+}
+
+.icon {
+  filter: grayscale(100%) brightness(300%);
 }
 
 .btn:hover {

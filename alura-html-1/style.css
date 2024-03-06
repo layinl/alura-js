@@ -43,10 +43,10 @@ a {
   transition: ease 0.2s;
 }
 
-a:hover {
-  color: #c7ff90;
-}
-
 a:visited {
   color: #7fff2f;
+}
+
+a:hover {
+  color: #e6fecd;
 }
