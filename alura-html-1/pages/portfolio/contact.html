@@ -3,23 +3,36 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/alura-html-1/style.css">
+  <link rel="stylesheet" href="./styles/style.css">
   <title>Contact</title>
 </head>
 <body>
   <main>
-    <section id="contato">
+    <section class="contact presentation">
+			<div class="navigation">
+				<nav>
+          <a class="nav-item" href="./lp.html">Home</a>
+					<a class="nav-item" href="./about.html">About me</a>
+					<a class="nav-item" href="./contact.html">Contact me!</a>
+					<a class="nav-item" href="./cv.html">CV</a>
+				</nav>
+			</div>
 			<h2>Contact</h2>
-			<form>
-				<label for="name">Name:</label>
-				<input type="text" id="name" name="name"><br>
-
-				<label for="email">Email:</label>
-				<input type="email" id="email" name="email"><br>
-
-				<label for="message">Message:</label>
-				<textarea id="message" name="message"></textarea><br>
-
-				<input type="submit" value="Send">
+			<form class="form">
+				<div class="flex-justify">
+					<label for="name">Name:</label>
+					<input type="text" id="name" name="name"><br>
+				</div>
+				<div>
+					<label for="email">Email:</label>
+					<input type="email" id="email" name="email"><br>
+				</div>
+				<div>
+					<label for="message">Message:</label>
+					<textarea id="message" name="message"></textarea><br>
+				</div>
+				<input type="submit" class="btn" value="Send">
 			</form>
 		</section>
   </main>
