@@ -34,9 +34,6 @@ main {
   padding-bottom: 200px;
 }
 
-.presentation-text {
-  max-height: 100%;
-}
 
 .navbar {
   padding: 25px 0;
@@ -144,4 +141,21 @@ h2 {
 .form {
   display: flex;
   flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+
+  .presentation-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 75px;
+    padding-bottom: 200px;
+  }
+
+  .img {
+    max-width: 50%;
+  }
+
 }
