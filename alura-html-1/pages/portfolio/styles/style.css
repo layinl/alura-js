@@ -166,7 +166,8 @@ h2 {
   }
 
   .presentation-text {
-    max-width: 90%;
+    width: auto;
+    padding: 2px;
   }
 
   .presentation-title {
